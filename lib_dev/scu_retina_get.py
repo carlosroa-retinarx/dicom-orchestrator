@@ -13,7 +13,7 @@ from pynetdicom.sop_class import (PatientRootQueryRetrieveInformationModelGet,
 debug_logger()
 
 
-def search_dcm_image(uid):
+def search_dcm_image(uid: str):
 
     load_dotenv()
 
