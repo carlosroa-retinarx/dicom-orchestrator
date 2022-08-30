@@ -23,7 +23,6 @@ Este codigo utiliza Python venv, siendo necesario su activacion a traves de "sou
 
 Propietaria RetinaRX
 =======
-# dicom-connector
 
 # Developed by OsmaniCR
 =======
