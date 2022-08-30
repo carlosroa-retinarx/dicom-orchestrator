@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "# ml_orchestrator"
 
 Anotaciones:
@@ -10,3 +11,6 @@ Anotaciones:
       uvicorn app:app --port 5001 --host 0.0.0.0 --reload
 
 "# Developed by OsmaniCR"
+=======
+# dicom-orchestrator
+>>>>>>> a584dc1b7708ca379ce00d0f49619a24d0865401
