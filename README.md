@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 "# ml_orchestrator"
 
 Anotaciones:
@@ -13,4 +12,4 @@ Anotaciones:
 "# Developed by OsmaniCR"
 =======
 # dicom-orchestrator
->>>>>>> a584dc1b7708ca379ce00d0f49619a24d0865401
+
