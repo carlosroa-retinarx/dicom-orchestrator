@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Request
-from lib_dev.img_file_manager import base64_encode, base64_decode
+from dev_utils.img_file_manager import base64_encode, base64_decode
 from db_conn.psql_connector import Cursor
 
 
@@ -23,7 +23,7 @@ async def save_image():
     # query = """SELECT * FROM dcm_study"""
     cursor.execute(
         query,
-        ('TEST1', 'bbbbb', base64_encode('./lib_dev/RG1_JLSN.dcm'), 1)
+        ('TEST1', 'bbbbb', base64_encode('./dev_utils/RG1_JLSN.dcm'), 1)
     )
     data = cursor.fetchone()[0]
     return data
