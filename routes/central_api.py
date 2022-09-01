@@ -3,7 +3,7 @@ from fastapi.responses import JSONResponse
 from fastapi import APIRouter, Request
 import requests
 from starlette.status import *
-# from dev_utils.scu_retina_get import search_dcm_image
+from dev_utils.scu_retina_get import search_dcm_image
 from dev_utils.img_file_manager import dcm_format_to
 from models.study_request_change_state import StudyChangeState
 
