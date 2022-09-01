@@ -1,16 +1,33 @@
 <<<<<<< HEAD
-"# ml_orchestrator"
+# RetinaRX DICOM Orchestrator
 
-Anotaciones:
-- Utilizado python env
-- Instalar dependencias desde el requirements.txt
-   
-       pip install -r requirements.txt
-- Inicializar en terminal con el siguiente comando. Si se quiere modificar la conexión utilizar --port --host y para hot reload --reload
+Aplicacion escrita principalmente en python, que provee las funciones principales para recibir, procesar y comunicar objetos DICOM, como asi tambien, su metadata e informacion relacionada. 
 
-      uvicorn app:app --port 5001 --host 0.0.0.0 --reload
+## Caracteristicas
+- DICOM C-STORE
+- DICOM C-FIND
+- DICOM C-GET
+- DICOM C-MOVE
+- DICOM Parser
+- DB postgreSQL (temporal hasta desarrollo de API)
 
-"# Developed by OsmaniCR"
+## Setup
+
+TBD
+
+## Uso
+
+Este codigo utiliza Python venv, siendo necesario su activacion a traves de "source bin/activate"
+
+## Licencia
+
+Propietaria RetinaRX
 =======
-# dicom-orchestrator
->>>>>>> a584dc1b7708ca379ce00d0f49619a24d0865401
+
+# Developed by OsmaniCR
+=======
+>>>>>>> 2dea65634f14aaf657c6eeeb8ed442e821051c3e
+
+
+
+
